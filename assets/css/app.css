@@ -1,0 +1,230 @@
+/* Project Hello World Css Style's */
+
+/* Developer Mobin Javari */
+
+/* About Developer : Https://MobinJavari.IR/ */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+section {
+    transition: ease .7s;
+}
+
+
+@font-face {
+    font-family: 'Vazir-Variable';
+    src: url('../font/vazir/Vazir-Variable.woff');
+}
+@font-face {
+    font-family: 'Vazir-Thin';
+    src: url('../font/vazir/Vazir-Thin.woff');
+}
+@font-face {
+    font-family: 'Vazir-Regular';
+    src: url('../font/vazir/Vazir-Regular.woff');
+}
+@font-face {
+    font-family: 'Vazir-Medium';
+    src: url('../font/vazir/Vazir-Medium.woff');
+}
+@font-face {
+    font-family: 'Vazir-Light';
+    src: url('../font/vazir/Vazir-Light.woff');
+}
+@font-face {
+    font-family: 'Vazir-Bold';
+    src: url('../font/vazir/Vazir-Bold.woff');
+}
+
+
+body {
+    background-color: #101010 !important;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Vazir-Regular';
+    direction: rtl;
+    text-align: right;
+    padding: 4px 10px 4px 10px;
+}
+
+.app-body {
+    background: url(../img/app.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+.button-style {
+    box-shadow: -11px -8px 29px -12px rgba(255, 255, 255, 0.226) inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    background-color: #2020208e;
+    padding: 10px 30px;
+    font-size: 18px;
+    margin: 40px 15px 10px 15px;
+    color: #fff;
+    font-family: 'Vazir-Medium';
+    border-radius: 20px 20px 0 20px;
+    line-height: 2;
+    border: 2px solid #c2c2c23a;
+}
+
+.github-body {
+    background: url(../img/github.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+.instagram-body {
+    background: url(../img/instagram.gif);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.telegram-body {
+    background: url(../img/telegram.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+.twitter-body {
+    background: url(../img/twitter.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+.link-box {
+    box-shadow: 0 0 100px -20px rgba(255, 255, 255, 0.226) inset;
+    background-color: #050505;
+    border-radius: 40px;
+    padding: 38px 30px;
+    margin: 100px auto 100px auto;
+    width: 98%; 
+    max-width: 600px;
+    text-align: center;
+    border: 3px solid #383838;
+}
+
+.logo-link {
+    border-radius: 100%;
+    margin: 0px 5px 40px 5px;
+    width: 150px;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+    user-zoom: none;
+    cursor: not-allowed;
+}
+
+.copyright-style {
+    padding: 10px 30px;
+    font-size: 14px !important;
+    margin: 40px 15px 10px 15px;
+    color: #cccccc;
+    font-family: 'Vazir-Medium';
+    line-height: 2;
+    direction: ltr !important;
+}
+
+
+strong {
+    font-size: 24px;
+}
+
+img {
+    max-width: 1200px;
+    border: 1px solid #5a5a5a80;
+    border-radius: 24px;
+    box-shadow: 17px 14px 60px -12px rgba(77, 77, 77, 0.44), rgb(0 0 0 / 30%) 0px 18px 36px -18px;
+}
+
+p {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.cursor-click {
+    cursor: pointer;
+} 
+
+.text {
+    max-width: 1000px;
+    margin: 5px auto;
+}
+
+.rtl {
+    direction: rtl;
+    text-align: right;
+    /* float: right; */
+}
+
+.ltr {
+    direction: ltr;
+    text-align: left;
+    float: left;
+}
+
+.center {
+    margin: auto;
+    text-align: center;
+}
+
+.display-inline {
+    display: inline;
+}
+
+.display-block {
+    display: block;
+}
+
+.display-inline-block {
+    display: inline-block;
+}
+
+.link-box h1 {
+    font-family: 'Vazir-Bold';
+    font-size: 28px;
+}
+
+
+.link-box p {
+    font-family: 'Vazir-Medium';
+    font-size: 16px;
+    margin: 10px 0 0 0;
+}
+
+@media only screen and (max-width:600px){
+    .button-style {
+        display: block;
+        width: 200px;
+        margin: 40px auto 10px auto;
+        line-height: 2.6;
+        border-radius: 20px;
+    }
+    /* .link-box {
+        border: 0;
+    } */
+}
+
+::-webkit-scrollbar {
+    display: none;
+  }
