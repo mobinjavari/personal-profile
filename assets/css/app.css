@@ -63,16 +63,16 @@ body {
 } 
 
 .button-style {
-    box-shadow: -11px -8px 29px -12px rgba(255, 255, 255, 0.226) inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-    background-color: #2020208e;
+    box-shadow: -11px -8px 29px -12px rgb(255 255 255 / 5%) inset, rgb(0 0 0 / 35%) 0px 18px 36px -18px inset;
+    background-color: rgb(32 32 32 / 50%);
     padding: 10px 30px;
     font-size: 18px;
     margin: 40px 15px 10px 15px;
-    color: #fff;
+    color: rgb(255 255 255 / 80%);
     font-family: 'Vazir-Medium';
     border-radius: 20px 20px 0 20px;
     line-height: 2;
-    border: 2px solid #c2c2c23a;
+    border: 1px solid rgb(194 194 194 / 11%);
 }
 
 .github-body {
@@ -107,16 +107,33 @@ body {
     background-size: cover;
 } 
 
+.discord-body {
+    background: url(../img/discord.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+.email-body {
+    background: url(../img/email.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
 .link-box {
-    box-shadow: 0 0 100px -20px rgba(255, 255, 255, 0.226) inset;
-    background-color: #050505;
+    box-shadow: 0 0 100px -20px rgba(255, 255, 255, 0.18) inset;
+    background-color: rgb(5 5 5 / 84%);
+    backdrop-filter: blur(10px); 
     border-radius: 40px;
     padding: 38px 30px;
     margin: 100px auto 100px auto;
     width: 98%; 
-    max-width: 600px;
+    max-width: 680px;
     text-align: center;
-    border: 3px solid #383838;
+    border: 2px solid rgb(255 255 255 / 20%);
 }
 
 .logo-link {
@@ -129,6 +146,9 @@ body {
     -webkit-user-drag: none;
     user-zoom: none;
     cursor: not-allowed;
+    border: 2px solid rgb(194 194 194 / 15%);
+    background-color: #ffffff08;
+    backdrop-filter: blur(30px);
 }
 
 .copyright-style {
@@ -159,7 +179,14 @@ p {
 
 a {
     text-decoration: none;
-    color: #fff;
+    background-color: rgb(194 194 194 / 11%);
+    backdrop-filter: blur(15px);
+    border-radius: 8px;
+    color: #e5e5e5;
+    padding: 1px 4px;
+    line-height: 1;
+    margin: 0 5px 0 2px;
+    border: 1px solid rgb(255 255 255 / 4%);
 }
 
 .cursor-click {
@@ -210,6 +237,7 @@ a {
     font-family: 'Vazir-Medium';
     font-size: 16px;
     margin: 10px 0 0 0;
+    color: rgb(255 255 255 / 77%);
 }
 
 @media only screen and (max-width:600px){
