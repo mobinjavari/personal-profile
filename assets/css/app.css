@@ -1,258 +1,446 @@
 /* Project Hello World Css Style's */
-
 /* Developer Mobin Javari */
-
 /* About Developer : Https://MobinJavari.IR/ */
-
-
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }
 
-section {
-    transition: ease .7s;
+@font-face {
+  font-family: 'Vazir-Variable';
+  src: url("../font/vazir/Vazir-Variable.woff");
 }
 
-
 @font-face {
-    font-family: 'Vazir-Variable';
-    src: url('../font/vazir/Vazir-Variable.woff');
-}
-@font-face {
-    font-family: 'Vazir-Thin';
-    src: url('../font/vazir/Vazir-Thin.woff');
-}
-@font-face {
-    font-family: 'Vazir-Regular';
-    src: url('../font/vazir/Vazir-Regular.woff');
-}
-@font-face {
-    font-family: 'Vazir-Medium';
-    src: url('../font/vazir/Vazir-Medium.woff');
-}
-@font-face {
-    font-family: 'Vazir-Light';
-    src: url('../font/vazir/Vazir-Light.woff');
-}
-@font-face {
-    font-family: 'Vazir-Bold';
-    src: url('../font/vazir/Vazir-Bold.woff');
+  font-family: 'Vazir-Thin';
+  src: url("../font/vazir/Vazir-Thin.woff");
 }
 
+@font-face {
+  font-family: 'Vazir-Regular';
+  src: url("../font/vazir/Vazir-Regular.woff");
+}
+
+@font-face {
+  font-family: 'Vazir-Medium';
+  src: url("../font/vazir/Vazir-Medium.woff");
+}
+
+@font-face {
+  font-family: 'Vazir-Light';
+  src: url("../font/vazir/Vazir-Light.woff");
+}
+
+@font-face {
+  font-family: 'Vazir-Bold';
+  src: url("../font/vazir/Vazir-Bold.woff");
+}
 
 body {
-    background-color: #101010 !important;
-    color: #ffffff;
-    font-size: 15px;
-    font-family: 'Vazir-Regular';
-    direction: rtl;
-    text-align: right;
-    padding: 4px 10px 4px 10px;
+  background-color: #101010 !important;
+  color: #ffffff;
+  font-size: 15px;
+  font-family: 'Vazir-Regular';
+  direction: rtl;
+  text-align: right;
+  padding: 4px 10px 4px 10px;
 }
 
 .app-body {
-    background: url(../img/app.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} 
-
-.button-style {
-    box-shadow: -11px -8px 29px -12px rgb(255 255 255 / 5%) inset, rgb(0 0 0 / 35%) 0px 18px 36px -18px inset;
-    background-color: rgb(32 32 32 / 50%);
-    padding: 10px 30px;
-    font-size: 18px;
-    margin: 40px 15px 10px 15px;
-    color: rgb(255 255 255 / 80%);
-    font-family: 'Vazir-Medium';
-    border-radius: 20px 20px 0 20px;
-    line-height: 2;
-    border: 1px solid rgb(194 194 194 / 11%);
+  background: url("../img/app.jpg");
+  -o-background: url("../img/app.jpg");
+  -moz-background: url("../img/app.jpg");
+  -webkit-background: url("../img/app.jpg");
+  background-attachment: fixed;
+  -o-background-attachment: fixed;
+  -moz-background-attachment: fixed;
+  -webkit-background-attachment: fixed;
+  background-position: center;
+  -o-background-position: center;
+  -moz-background-position: center;
+  -webkit-background-position: center;
+  background-repeat: no-repeat;
+  -o-background-repeat: no-repeat;
+  -moz-background-repeat: no-repeat;
+  -webkit-background-repeat: no-repeat;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
 }
 
 .github-body {
-    background: url(../img/github.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} 
+  background: url("../img/github.png");
+  -o-background: url("../img/github.png");
+  -moz-background: url("../img/github.png");
+  -webkit-background: url("../img/github.png");
+  background-attachment: fixed;
+  -o-background-attachment: fixed;
+  -moz-background-attachment: fixed;
+  -webkit-background-attachment: fixed;
+  background-position: center;
+  -o-background-position: center;
+  -moz-background-position: center;
+  -webkit-background-position: center;
+  background-repeat: no-repeat;
+  -o-background-repeat: no-repeat;
+  -moz-background-repeat: no-repeat;
+  -webkit-background-repeat: no-repeat;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+}
 
 .instagram-body {
-    background: url(../img/instagram.gif);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background: url("../img/instagram.jpg");
+  -o-background: url("../img/instagram.jpg");
+  -moz-background: url("../img/instagram.jpg");
+  -webkit-background: url("../img/instagram.jpg");
+  background-attachment: fixed;
+  -o-background-attachment: fixed;
+  -moz-background-attachment: fixed;
+  -webkit-background-attachment: fixed;
+  background-position: center;
+  -o-background-position: center;
+  -moz-background-position: center;
+  -webkit-background-position: center;
+  background-repeat: no-repeat;
+  -o-background-repeat: no-repeat;
+  -moz-background-repeat: no-repeat;
+  -webkit-background-repeat: no-repeat;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
 }
 
 .telegram-body {
-    background: url(../img/telegram.png);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} 
+  background: url("../img/telegram.jpg");
+  -o-background: url("../img/telegram.jpg");
+  -moz-background: url("../img/telegram.jpg");
+  -webkit-background: url("../img/telegram.jpg");
+  background-attachment: fixed;
+  -o-background-attachment: fixed;
+  -moz-background-attachment: fixed;
+  -webkit-background-attachment: fixed;
+  background-position: center;
+  -o-background-position: center;
+  -moz-background-position: center;
+  -webkit-background-position: center;
+  background-repeat: no-repeat;
+  -o-background-repeat: no-repeat;
+  -moz-background-repeat: no-repeat;
+  -webkit-background-repeat: no-repeat;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+}
 
 .twitter-body {
-    background: url(../img/twitter.png);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} 
+  background: url("../img/twitter.png");
+  -o-background: url("../img/twitter.png");
+  -moz-background: url("../img/twitter.png");
+  -webkit-background: url("../img/twitter.png");
+  background-attachment: fixed;
+  -o-background-attachment: fixed;
+  -moz-background-attachment: fixed;
+  -webkit-background-attachment: fixed;
+  background-position: center;
+  -o-background-position: center;
+  -moz-background-position: center;
+  -webkit-background-position: center;
+  background-repeat: no-repeat;
+  -o-background-repeat: no-repeat;
+  -moz-background-repeat: no-repeat;
+  -webkit-background-repeat: no-repeat;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+}
 
 .discord-body {
-    background: url(../img/discord.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} 
+  background: url("../img/discord(1).jpg");
+  -o-background: url("../img/discord(1).jpg");
+  -moz-background: url("../img/discord(1).jpg");
+  -webkit-background: url("../img/discord(1).jpg");
+  background-attachment: fixed;
+  -o-background-attachment: fixed;
+  -moz-background-attachment: fixed;
+  -webkit-background-attachment: fixed;
+  background-position: center;
+  -o-background-position: center;
+  -moz-background-position: center;
+  -webkit-background-position: center;
+  background-repeat: no-repeat;
+  -o-background-repeat: no-repeat;
+  -moz-background-repeat: no-repeat;
+  -webkit-background-repeat: no-repeat;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+}
 
 .email-body {
-    background: url(../img/email.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} 
+  background: url("../img/email.jpg");
+  -o-background: url("../img/email.jpg");
+  -moz-background: url("../img/email.jpg");
+  -webkit-background: url("../img/email.jpg");
+  background-attachment: fixed;
+  -o-background-attachment: fixed;
+  -moz-background-attachment: fixed;
+  -webkit-background-attachment: fixed;
+  background-position: center;
+  -o-background-position: center;
+  -moz-background-position: center;
+  -webkit-background-position: center;
+  background-repeat: no-repeat;
+  -o-background-repeat: no-repeat;
+  -moz-background-repeat: no-repeat;
+  -webkit-background-repeat: no-repeat;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+}
 
 .link-box {
-    box-shadow: 0 0 100px -20px rgba(255, 255, 255, 0.18) inset;
-    background-color: rgb(5 5 5 / 84%);
-    backdrop-filter: blur(10px); 
-    border-radius: 40px;
-    padding: 38px 30px;
-    margin: 100px auto 100px auto;
-    width: 98%; 
-    max-width: 680px;
-    text-align: center;
-    border: 2px solid rgb(255 255 255 / 20%);
-}
-
-.logo-link {
-    border-radius: 100%;
-    margin: 0px 5px 40px 5px;
-    width: 150px;
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -webkit-user-drag: none;
-    user-zoom: none;
-    cursor: not-allowed;
-    border: 2px solid rgb(194 194 194 / 15%);
-    background-color: #ffffff08;
-    backdrop-filter: blur(30px);
-}
-
-.copyright-style {
-    padding: 10px 30px;
-    font-size: 14px !important;
-    margin: 40px 15px 10px 15px;
-    color: #cccccc;
-    font-family: 'Vazir-Medium';
-    line-height: 2;
-    direction: ltr !important;
-}
-
-
-strong {
-    font-size: 24px;
-}
-
-img {
-    max-width: 1200px;
-    border: 1px solid #5a5a5a80;
-    border-radius: 24px;
-    box-shadow: 17px 14px 60px -12px rgba(77, 77, 77, 0.44), rgb(0 0 0 / 30%) 0px 18px 36px -18px;
-}
-
-p {
-    padding: 10px;
-}
-
-a {
-    text-decoration: none;
-    background-color: rgb(194 194 194 / 11%);
-    backdrop-filter: blur(15px);
-    border-radius: 8px;
-    color: #e5e5e5;
-    padding: 1px 4px;
-    line-height: 1;
-    margin: 0 5px 0 2px;
-    border: 1px solid rgb(255 255 255 / 4%);
-}
-
-.cursor-click {
-    cursor: pointer;
-} 
-
-.text {
-    max-width: 1000px;
-    margin: 5px auto;
-}
-
-.rtl {
-    direction: rtl;
-    text-align: right;
-    /* float: right; */
-}
-
-.ltr {
-    direction: ltr;
-    text-align: left;
-    float: left;
-}
-
-.center {
-    margin: auto;
-    text-align: center;
-}
-
-.display-inline {
-    display: inline;
-}
-
-.display-block {
-    display: block;
-}
-
-.display-inline-block {
-    display: inline-block;
+  box-shadow: 0 0 100px -20px rgba(255, 255, 255, 0.18) inset;
+  -moz-box-shadow: 0 0 100px -20px rgba(255, 255, 255, 0.18) inset;
+  -o-box-shadow: 0 0 100px -20px rgba(255, 255, 255, 0.18) inset;
+  -webkit-box-shadow: 0 0 100px -20px rgba(255, 255, 255, 0.18) inset;
+  background-color: rgba(5, 5, 5, 0.84);
+  -moz-background-color: rgba(5, 5, 5, 0.84);
+  -o-background-color: rgba(5, 5, 5, 0.84);
+  -webkit-background-color: rgba(5, 5, 5, 0.84);
+  backdrop-filter: blur(16px);
+  -moz-backdrop-filter: blur(16px);
+  -o-backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  border-radius: 40px;
+  padding: 38px 30px;
+  margin: 100px auto 100px auto;
+  max-width: 750px;
+  width: 98%;
+  text-align: center;
 }
 
 .link-box h1 {
-    font-family: 'Vazir-Bold';
-    font-size: 28px;
+  font-family: 'Vazir-Bold';
+  font-size: 28px;
+  line-height: 2;
 }
-
 
 .link-box p {
-    font-family: 'Vazir-Medium';
-    font-size: 16px;
-    margin: 10px 0 0 0;
-    color: rgb(255 255 255 / 77%);
+  font-family: 'Vazir-Medium';
+  font-size: 16px;
+  padding: 10px;
+  margin: 10px 0 0 0;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 2;
 }
 
-@media only screen and (max-width:600px){
-    .button-style {
-        display: block;
-        width: 200px;
-        margin: 40px auto 10px auto;
-        line-height: 2.6;
-        border-radius: 20px;
-    }
-    /* .link-box {
-        border: 0;
-    } */
+.link-box .relative-box {
+  position: relative;
+  padding: 20px 0;
+}
+
+.link-box .logo-link {
+  background-color: #ffffff08;
+  margin: 0px 5px 10px 5px;
+  width: 150px;
+  user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-zoom: none;
+  cursor: not-allowed;
+  border: 2px solid rgba(194, 194, 194, 0.1);
+  border-radius: 100%;
+}
+
+.link-box .button-style {
+  box-shadow: -11px -8px 29px -12px rgba(255, 255, 255, 0.05) inset, rgba(0, 0, 0, 0.8) 0px 18px 36px -18px inset;
+  -o-box-shadow: -11px -8px 29px -12px rgba(255, 255, 255, 0.05) inset, rgba(0, 0, 0, 0.8) 0px 18px 36px -18px inset;
+  -moz-box-shadow: -11px -8px 29px -12px rgba(255, 255, 255, 0.05) inset, rgba(0, 0, 0, 0.8) 0px 18px 36px -18px inset;
+  -webkit-box-shadow: -11px -8px 29px -12px rgba(255, 255, 255, 0.05) inset, rgba(0, 0, 0, 0.8) 0px 18px 36px -18px inset;
+  background-color: rgba(32, 32, 32, 0.3);
+  color: rgba(255, 255, 255, 0.8);
+  padding: 10px 30px;
+  margin: 40px 15px 10px 15px;
+  min-width: 150px;
+  min-height: 66px;
+  font-size: 18px;
+  font-family: 'Vazir-Medium';
+  line-height: 2;
+  border-radius: 20px 20px 0 20px;
+  border: 1px solid rgba(194, 194, 194, 0.11);
+}
+
+@media only screen and (max-width: 480px) {
+  .link-box .button-style {
+    display: block !important;
+    width: 200px !important;
+    margin: 40px auto 10px auto !important;
+    line-height: 2.6 !important;
+    border-radius: 20px !important;
+  }
+}
+
+.link-box .back-button {
+  position: absolute !important;
+  left: -22px !important;
+  top: -44px !important;
+  cursor: pointer;
+  font-size: 21px !important;
+  font-weight: bold;
+  box-shadow: -11px -8px 29px -12px rgba(255, 255, 255, 0.05) inset, rgba(0, 0, 0, 0.8) 0px 18px 36px -18px inset;
+  -o-box-shadow: -11px -8px 29px -12px rgba(255, 255, 255, 0.05) inset, rgba(0, 0, 0, 0.8) 0px 18px 36px -18px inset;
+  -moz-box-shadow: -11px -8px 29px -12px rgba(255, 255, 255, 0.05) inset, rgba(0, 0, 0, 0.8) 0px 18px 36px -18px inset;
+  -webkit-box-shadow: -11px -8px 29px -12px rgba(255, 255, 255, 0.05) inset, rgba(0, 0, 0, 0.8) 0px 18px 36px -18px inset;
+  background-color: rgba(32, 32, 32, 0.1);
+  color: rgba(255, 255, 255, 0.8);
+  padding: 5px 10px;
+  margin: 20px 10px 10px 5px;
+  width: 46px;
+  font-family: 'Vazir-Medium';
+  line-height: 2;
+  border-radius: 20px;
+  border: 1px solid rgba(194, 194, 194, 0.11);
+}
+
+.link-box .more-button {
+  position: absolute !important;
+  right: -25px !important;
+  bottom: -33px !important;
+  cursor: pointer;
+  font-size: 21px !important;
+  font-weight: bold;
+  box-shadow: -11px -8px 29px -12px rgba(255, 255, 255, 0.05) inset, rgba(0, 0, 0, 0.8) 0px 18px 36px -18px inset;
+  -o-box-shadow: -11px -8px 29px -12px rgba(255, 255, 255, 0.05) inset, rgba(0, 0, 0, 0.8) 0px 18px 36px -18px inset;
+  -moz-box-shadow: -11px -8px 29px -12px rgba(255, 255, 255, 0.05) inset, rgba(0, 0, 0, 0.8) 0px 18px 36px -18px inset;
+  -webkit-box-shadow: -11px -8px 29px -12px rgba(255, 255, 255, 0.05) inset, rgba(0, 0, 0, 0.8) 0px 18px 36px -18px inset;
+  background-color: rgba(32, 32, 32, 0.1);
+  color: rgba(255, 255, 255, 0.8);
+  padding: 5px 10px;
+  margin: 20px 10px 10px 5px;
+  width: 46px;
+  font-family: 'Vazir-Medium';
+  line-height: 2;
+  border-radius: 20px;
+  border: 1px solid rgba(194, 194, 194, 0.11);
+}
+
+.link-box .copyright-style {
+  padding: 10px 30px;
+  font-size: 14px !important;
+  margin: 40px 15px 10px 15px;
+  color: #cccccc;
+  font-family: 'Vazir-Medium';
+  line-height: 2;
+  direction: ltr !important;
+}
+
+section {
+  -webkit-transition: ease .7s;
+  transition: ease .7s;
+}
+
+strong {
+  font-size: 24px;
+}
+
+img {
+  max-width: 1200px;
+  box-shadow: 17px 14px 60px -12px rgba(77, 77, 77, 0.44), rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  -o-box-shadow: -11px -8px 29px -12px rgba(255, 255, 255, 0.05) inset, rgba(0, 0, 0, 0.8) 0px 18px 36px -18px inset;
+  -moz-box-shadow: -11px -8px 29px -12px rgba(255, 255, 255, 0.05) inset, rgba(0, 0, 0, 0.8) 0px 18px 36px -18px inset;
+  -webkit-box-shadow: -11px -8px 29px -12px rgba(255, 255, 255, 0.05) inset, rgba(0, 0, 0, 0.8) 0px 18px 36px -18px inset;
+}
+
+button {
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+  user-zoom: none;
+}
+
+a {
+  text-decoration: none;
+  box-shadow: -11px -8px 29px -12px rgba(255, 255, 255, 0.05) inset, rgba(0, 0, 0, 0.9) 0px 18px 36px -18px inset;
+  -o-box-shadow: -11px -8px 29px -12px rgba(255, 255, 255, 0.05) inset, rgba(0, 0, 0, 0.8) 0px 18px 36px -18px inset;
+  -moz-box-shadow: -11px -8px 29px -12px rgba(255, 255, 255, 0.05) inset, rgba(0, 0, 0, 0.8) 0px 18px 36px -18px inset;
+  -webkit-box-shadow: -11px -8px 29px -12px rgba(255, 255, 255, 0.05) inset, rgba(0, 0, 0, 0.8) 0px 18px 36px -18px inset;
+  background-color: rgba(32, 32, 32, 0.3);
+  margin: 40px 15px 10px 15px;
+  font-family: 'Vazir-Medium';
+  backdrop-filter: blur(15px);
+  -o-backdrop-filter: blur(15px);
+  -moz-backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: 8px;
+  color: #e5e5e5;
+  padding: 5px 6px 2px 6px;
+  line-height: 1;
+  margin: 0 5px 0 2px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.cursor-click {
+  cursor: pointer;
+}
+
+.text {
+  max-width: 1000px;
+  margin: 5px auto;
+}
+
+.rtl {
+  direction: rtl;
+  text-align: right;
+  /* float: right; */
+}
+
+.ltr {
+  direction: ltr;
+  text-align: left;
+  float: left;
+}
+
+.center {
+  margin: auto;
+  text-align: center;
+}
+
+.display-inline {
+  display: inline;
+}
+
+.display-block {
+  display: block;
+}
+
+.display-inline-block {
+  display: inline-block;
 }
 
 ::-webkit-scrollbar {
-    display: none;
-  }
+  display: none;
+}
+/*# sourceMappingURL=app.css.map */

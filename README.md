@@ -10,6 +10,15 @@ Source to collect your social network address
 * [email](email.com) 
 * and more..
 
-<img src="./assets/img/README.jpg" title="Social-Links" alt="Social Links Img" style="border-radius:10px;margin:40px 15px;width:400px;">
+
+
+<img src="./assets/img/shot1111.png" title="Github-Social-Links" alt="Social Links Img">
+<img src="./assets/img/shot1117.png" title="Github-Social-Links" alt="Social Links Img">
+<img src="./assets/img/shot1112.png" title="Github-Social-Links" alt="Social Links Img">
+<img src="./assets/img/shot1113.png" title="Github-Social-Links" alt="Social Links Img">
+<img src="./assets/img/shot1114.png" title="Github-Social-Links" alt="Social Links Img">
+<img src="./assets/img/shot1115.png" title="Github-Social-Links" alt="Social Links Img">
+<img src="./assets/img/shot1116.png" title="Github-Social-Links" alt="Social Links Img">
+
 
 ✅ Email me your suggestions for future eternity 
