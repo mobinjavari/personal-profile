@@ -32,7 +32,6 @@
     -webkit-background-size: cover;
 }
 
-
 * {
     margin: 0;
     padding: 0;
@@ -78,15 +77,16 @@ body {
     direction: rtl;
     text-align: right;
     padding: 4px 10px 4px 10px;
+    height: 100%;
 }
 
-.app-body {@include body_style("../img/app.jpg");}
-.github-body {@include body_style("../img/github.png");}
-.instagram-body {@include body_style("../img/instagram.jpg");}
-.telegram-body {@include body_style("../img/telegram.jpg");}
-.twitter-body {@include body_style("../img/twitter.png");}
-.discord-body {@include body_style("../img/discord(1).jpg");}
-.email-body {@include body_style("../img/email.jpg");} 
+.app-body {@include body_style("../img/app/1113.jpg");}
+.github-body {@include body_style("../img/github/1112.jpg");}
+.instagram-body {@include body_style("../img/instagram/1111.jpg");}
+.telegram-body {@include body_style("../img/telegram/1111.jpg");}
+.twitter-body {@include body_style("../img/twitter/1111.jpg");}
+.discord-body {@include body_style("../img/discord/1113.jpg");}
+.email-body {@include body_style("../img/email/1111.jpg");} 
 
 
 .link-box {
@@ -100,18 +100,27 @@ body {
     -o-background-color: rgba(5 ,5 ,5 , 0.84);
     -webkit-background-color: rgba(5 ,5 ,5 , 0.84);
 
-    backdrop-filter: blur(16px); 
-    -moz-backdrop-filter: blur(16px); 
-    -o-backdrop-filter: blur(16px); 
-    -webkit-backdrop-filter: blur(16px); 
+     backdrop-filter: blur(12px); 
+    -moz-backdrop-filter: blur(12px); 
+    -o-backdrop-filter: blur(12px); 
+    -webkit-backdrop-filter: blur(12px);
 
     border: 2px solid rgba(255 ,255 ,255 ,0.15);
     border-radius: 40px;
     padding: 38px 30px;
     margin: 100px auto 100px auto;
     max-width: 750px;
-    width: 98%; 
+    width: 94%; 
     text-align: center;
+
+    @media only screen and (min-width:625px) {
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        margin: auto;
+        transform: translate(-50%, -50%);
+
+    }
     
 
     h1 {
