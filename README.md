@@ -1,4 +1,4 @@
-## Social Link's
+## Social Media Link's
 
 Source to collect your social network address
 
