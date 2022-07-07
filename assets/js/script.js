@@ -15,6 +15,6 @@ function OpenLink(url,protocol)
     }
 }
 
-function back() {
+function Back() {
     history.back();
 }
