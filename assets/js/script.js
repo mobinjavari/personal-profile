@@ -14,3 +14,7 @@ function OpenLink(url,protocol)
             break;
     }
 }
+
+function back() {
+    history.back();
+}
