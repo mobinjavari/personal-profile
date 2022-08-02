@@ -42,7 +42,7 @@
           <img src="./assets/img/readme/shot1112.png" title="Github-Social-Links" alt="Social Links Img">
         </td>
         <td><br>
-          <img src="./assets/img/readme/shot1112.png" title="Github-Social-Links" alt="Social Links Img">
+          <img src="./assets/img/readme/shot1113.png" title="Github-Social-Links" alt="Social Links Img">
         </td>
       </tr>
       <tr>
