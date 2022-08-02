@@ -20,7 +20,7 @@
         <th colspan="2" align="right" dir="rtl">🤝 مشارکت</th>
       </tr>
       <tr>
-        <td colspan="2" dir="rtl" align="right">این پروژه تحت پروانه GPL نسخه 3 منتشر و نگه‌داری می‌شود و از این‌جهت، هرکسی می‌تواند در صورت نیاز اقدام به مشارکت برای اصلاح یا بهبود یا حتی اضافه کردن ویژگی های جدید به این پروژه کند، همچنین ایجاد فورک های مختلف از پروژه و توسعه پروژه در شاخه‌ای جدا، چه به‌صورت رایگان و چه به‌صورت تجاری، هیچگونه مانعی ندارد</td>
+        <td colspan="2" dir="rtl" align="right"><sub>این پروژه تحت پروانه GPL نسخه 3 منتشر و نگه‌داری می‌شود و از این‌جهت، هرکسی می‌تواند در صورت نیاز اقدام به مشارکت برای اصلاح یا بهبود یا حتی اضافه کردن ویژگی های جدید به این پروژه کند، همچنین ایجاد فورک های مختلف از پروژه و توسعه پروژه در شاخه‌ای جدا، چه به‌صورت رایگان و چه به‌صورت تجاری، هیچگونه مانعی ندارد</sub></td>
       </tr>
     </table>
   </div><br>
@@ -49,7 +49,7 @@
         <th colspan="2" align="left">🤝 participation</th>
       </tr>
       <tr>
-        <td colspan="2">This project is released and maintained under the GPL version 3 license, and in this sense, anyone can contribute to modify or improve or even add new features to this project, as well as create different forks of the project and develop the project in A separate branch, whether free or commercial, has no obstacles</td>
+        <td colspan="2"><sub>This project is released and maintained under the GPL version 3 license, and in this sense, anyone can contribute to modify or improve or even add new features to this project, as well as create different forks of the project and develop the project in A separate branch, whether free or commercial, has no obstacles</sub></td>
       </tr>
     </table>
   </div>
