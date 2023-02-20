@@ -13,40 +13,34 @@
 }
 
 @font-face {
-  font-family: 'Vazir-Variable';
+  font-family: "Vazir-Variable";
   src: url("../font/vazir/Vazir-Variable.woff");
 }
-
 @font-face {
-  font-family: 'Vazir-Thin';
+  font-family: "Vazir-Thin";
   src: url("../font/vazir/Vazir-Thin.woff");
 }
-
 @font-face {
-  font-family: 'Vazir-Regular';
+  font-family: "Vazir-Regular";
   src: url("../font/vazir/Vazir-Regular.woff");
 }
-
 @font-face {
-  font-family: 'Vazir-Medium';
+  font-family: "Vazir-Medium";
   src: url("../font/vazir/Vazir-Medium.woff");
 }
-
 @font-face {
-  font-family: 'Vazir-Light';
+  font-family: "Vazir-Light";
   src: url("../font/vazir/Vazir-Light.woff");
 }
-
 @font-face {
-  font-family: 'Vazir-Bold';
+  font-family: "Vazir-Bold";
   src: url("../font/vazir/Vazir-Bold.woff");
 }
-
 body {
   background-color: #101010 !important;
   color: #ffffff;
   font-size: 15px;
-  font-family: 'Vazir-Regular';
+  font-family: "Vazir-Regular";
   direction: rtl;
   text-align: right;
   padding: 4px 10px 4px 10px;
@@ -235,42 +229,36 @@ body {
   width: 94%;
   text-align: center;
 }
-
 @media only screen and (min-width: 625px) {
   .link-box {
     top: 50%;
     left: 50%;
     position: absolute;
     margin: auto;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
   }
 }
-
 .link-box h1 {
-  font-family: 'Vazir-Bold';
+  font-family: "Vazir-Bold";
   font-size: 28px;
   line-height: 2;
 }
-
 .link-box p {
-  font-family: 'Vazir-Medium';
+  font-family: "Vazir-Medium";
   font-size: 16px;
   padding: 10px;
   margin: 10px 0 0 0;
   color: rgba(255, 255, 255, 0.8);
   line-height: 2;
 }
-
 .link-box .relative-box {
   position: relative;
   padding: 20px 0;
 }
-
 .link-box .logo-link {
-  background-color: #ffffff08;
   margin: 0px 5px 10px 5px;
-  width: 150px;
+  width: 200px;
+  box-shadow: none;
   user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -281,10 +269,8 @@ body {
   -o-user-drag: none;
   user-zoom: none;
   cursor: not-allowed;
-  border: 2px solid rgba(194, 194, 194, 0.1);
   border-radius: 100%;
 }
-
 .link-box .button-style {
   box-shadow: -11px -8px 29px -12px rgba(255, 255, 255, 0.05) inset, rgba(0, 0, 0, 0.8) 0px 18px 36px -18px inset;
   -o-box-shadow: -11px -8px 29px -12px rgba(255, 255, 255, 0.05) inset, rgba(0, 0, 0, 0.8) 0px 18px 36px -18px inset;
@@ -297,12 +283,11 @@ body {
   min-width: 150px;
   min-height: 66px;
   font-size: 18px;
-  font-family: 'Vazir-Medium';
+  font-family: "Vazir-Medium";
   line-height: 2;
   border-radius: 20px 20px 0 20px;
   border: 1px solid rgba(194, 194, 194, 0.11);
 }
-
 @media only screen and (max-width: 480px) {
   .link-box .button-style {
     display: block !important;
@@ -312,7 +297,6 @@ body {
     border-radius: 20px !important;
   }
 }
-
 .link-box .back-button {
   position: absolute !important;
   left: -22px !important;
@@ -329,12 +313,11 @@ body {
   padding: 5px 10px;
   margin: 20px 10px 10px 5px;
   width: 46px;
-  font-family: 'Vazir-Medium';
+  font-family: "Vazir-Medium";
   line-height: 2;
   border-radius: 20px;
   border: 1px solid rgba(194, 194, 194, 0.11);
 }
-
 .link-box .more-button {
   position: absolute !important;
   right: -25px !important;
@@ -351,25 +334,23 @@ body {
   padding: 5px 10px;
   margin: 20px 10px 10px 5px;
   width: 46px;
-  font-family: 'Vazir-Medium';
+  font-family: "Vazir-Medium";
   line-height: 2;
   border-radius: 20px;
   border: 1px solid rgba(194, 194, 194, 0.11);
 }
-
 .link-box .copyright-style {
   padding: 10px 30px;
   font-size: 14px !important;
   margin: 40px 15px 10px 15px;
   color: #cccccc;
-  font-family: 'Vazir-Medium';
+  font-family: "Vazir-Medium";
   line-height: 2;
   direction: ltr !important;
 }
 
 section {
-  -webkit-transition: ease .7s;
-  transition: ease .7s;
+  transition: ease 0.7s;
 }
 
 strong {
@@ -401,7 +382,7 @@ a {
   -webkit-box-shadow: -11px -8px 29px -12px rgba(255, 255, 255, 0.05) inset, rgba(0, 0, 0, 0.8) 0px 18px 36px -18px inset;
   background-color: rgba(32, 32, 32, 0.3);
   margin: 40px 15px 10px 15px;
-  font-family: 'Vazir-Medium';
+  font-family: "Vazir-Medium";
   backdrop-filter: blur(15px);
   -o-backdrop-filter: blur(15px);
   -moz-backdrop-filter: blur(15px);
@@ -454,5 +435,4 @@ a {
 
 ::-webkit-scrollbar {
   display: none;
-}
-/*# sourceMappingURL=app.css.map */
+}/*# sourceMappingURL=app.css.map */

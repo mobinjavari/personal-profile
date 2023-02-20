@@ -144,10 +144,10 @@ body {
     }
 
     .logo-link {
-        background-color: #ffffff08;
+        // background-color: #ffffff08;
         margin: 0px 5px 10px 5px;
-        width: 150px;
-    
+        width: 200px;
+        box-shadow: none;
         user-select: none;
         -moz-user-select: none;
         -ms-user-select: none;
@@ -159,7 +159,7 @@ body {
         user-zoom: none;
     
         cursor: not-allowed;
-        border: 2px solid rgba(194 ,194 ,194 ,0.1);
+        // border: 2px solid rgba(194 ,194 ,194 ,0.1);
         border-radius: 100%;
     }
 
