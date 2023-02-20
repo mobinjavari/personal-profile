@@ -45,13 +45,14 @@ body {
   text-align: right;
   padding: 4px 10px 4px 10px;
   height: 100%;
+  zoom: 80%;
 }
 
 .app-body {
-  background: url("../img/app/1113.jpg");
-  -o-background: url("../img/app/1113.jpg");
-  -moz-background: url("../img/app/1113.jpg");
-  -webkit-background: url("../img/app/1113.jpg");
+  background: url("../img/app/1115.jpg");
+  -o-background: url("../img/app/1115.jpg");
+  -moz-background: url("../img/app/1115.jpg");
+  -webkit-background: url("../img/app/1115.jpg");
   background-attachment: fixed;
   -o-background-attachment: fixed;
   -moz-background-attachment: fixed;

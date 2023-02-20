@@ -78,9 +78,10 @@ body {
     text-align: right;
     padding: 4px 10px 4px 10px;
     height: 100%;
+    zoom: 80%;
 }
 
-.app-body {@include body_style("../img/app/1113.jpg");}
+.app-body {@include body_style("../img/app/1115.jpg");}
 .github-body {@include body_style("../img/github/1112.jpg");}
 .instagram-body {@include body_style("../img/instagram/1111.jpg");}
 .telegram-body {@include body_style("../img/telegram/1111.jpg");}
