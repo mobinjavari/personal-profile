@@ -1,0 +1,213 @@
+$fontsDirectory: "../assets/fonts"; 
+$imagesDirectory: "../assets/images";
+$backgroundImage: $imagesDirectory+"/background.jpg";
+
+@font-face {
+    font-family: "chalkboard";
+    src: url($fontsDirectory+"/ChalkboardSE.otf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #101010 !important;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: "chalkboard";
+    direction: ltr;
+    text-align: left;
+    padding: 4px 10px 4px 10px;
+    height: 100%;
+
+    &.app {
+        background: url($backgroundImage);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        .blur-box {
+            box-shadow: 0 0 100px -20px rgba(255, 255, 255, 0.18) inset;
+            background-color: rgba(5 ,5 ,5 , 0.84);
+            backdrop-filter: blur(12px);
+            border: 2px solid rgba(255 ,255 ,255 ,0.15);
+            border-radius: 40px;
+            padding: 38px 30px;
+            margin: 100px auto 100px auto;
+            max-width: 750px;
+            width: 94%; 
+            text-align: center;
+        
+            @media only screen and (min-width:625px) {
+                // top: 50%;
+                // left: 50%;
+                // position: absolute;
+                // margin: auto;
+                // transform: translate(-50%, -50%);
+            }
+            
+        
+            h1 {
+                font-size: 28px;
+                line-height: 2;
+            }
+        
+            p {
+                font-size: 16px;
+                padding: 10px;
+                margin: 10px 0 0 0;
+                color: rgba(255, 255, 255, 0.80);
+                line-height: 2;
+            }
+        
+            .relative-box {
+                position: relative;
+                padding: 20px 0;
+            }
+        
+            .logo {
+                // background-color: #ffffff08;
+                margin: 0px 5px 10px 5px;
+                width: 200px;
+                box-shadow: none;
+                user-select: none;
+                user-zoom: none;
+                cursor: not-allowed;
+                border: 8px solid rgba(194 ,194 ,194 ,0.1);
+                border-radius: 100%;
+            }
+        
+            .button {
+                box-shadow: -11px -8px 29px -12px rgba(255, 255, 255, 0.05) inset, rgba(0, 0, 0, 0.8) 0px 18px 36px -18px inset;
+                background-color: rgba(32 ,32 ,32 , 0.30);
+                color: rgba(255 ,255 ,255 ,0.80);
+                padding: 10px 30px;
+                margin: 40px 15px 10px 15px;
+                min-width: 150px;
+                min-height: 66px;
+                font-size: 18px;
+                line-height: 2;
+                font-family: "chalkboard";
+                border-radius: 0px 20px 20px 20px;
+                border: 1px solid rgba(194 ,194 ,194 ,0.11);
+                position: relative;
+
+                @media only screen and (max-width:480px){
+                    display: block !important;
+                    width: 200px !important;
+                    margin: 40px auto 10px auto !important;
+                    line-height: 2.6 !important;
+                    border-radius: 20px !important;
+                }
+
+                .taarget-blanck {
+                    position: absolute;
+                    left: 12px;
+                    top: -2px;
+                }
+            }
+
+            .action {
+                cursor: pointer;
+                font-size: 21px !important;
+                font-weight: bold;
+                box-shadow: -11px -8px 29px -12px rgba(255, 255, 255, 0.05) inset, rgba(0, 0, 0, 0.8) 0px 18px 36px -18px inset;
+                background-color: rgba(32, 32, 32, 0.1);
+                color: rgba(255 ,255 ,255 ,0.80);
+                padding: 5px 13px;
+                margin: 20px 10px 10px 5px;
+                width: 46px;
+                line-height: 2;
+                border-radius: 20px;
+                border: 1px solid rgba(194 ,194 ,194 ,0.11);
+
+                &-back {
+                    position: absolute !important;
+                    left: -22px !important;
+                    top: -44px !important;
+                }
+
+                &-link {
+                    position: absolute !important;
+                    right: -25px !important;
+                    bottom: -33px !important;
+                }
+            }
+        
+            .copyright {
+                text-align: center;
+                padding: 10px 30px;
+                font-size: 14px !important;
+                margin: 40px 15px 10px 15px;
+                color: #cccccc;
+                line-height: 2;
+                direction: ltr !important;
+            }
+        }
+    }
+}
+
+section {
+    transition: ease .7s;
+}
+
+strong {
+    font-size: 24px;
+}
+
+img {
+    max-width: 1200px;
+    box-shadow: 17px 14px 60px -12px rgba(77, 77, 77, 0.44), rgba(0 ,0 ,0 , 0.30) 0px 18px 36px -18px;
+}
+
+button {
+    user-select: none;
+    user-zoom: none;
+}
+
+a {
+    text-decoration: none;
+    box-shadow: -11px -8px 29px -12px rgba(255, 255, 255, 0.05) inset, rgba(0, 0, 0, 0.9) 0px 18px 36px -18px inset;
+    background-color: rgba(32, 32, 32, 0.30);
+    margin: 40px 15px 10px 15px;
+    padding: 5px 6px 2px 6px;
+    backdrop-filter: blur(15px);
+    color: #e5e5e5;
+    line-height: 1;
+    margin: 0 5px 0 2px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+}
+
+.cursor {
+    &-click {
+        cursor: pointer;   
+    }
+}
+
+.rtl {
+    direction: rtl;
+    text-align: right;
+    /* float: right; */
+}
+
+.ltr {
+    direction: ltr;
+    text-align: left;
+    float: left;
+}
+
+.center {
+    margin: auto;
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
