@@ -1,0 +1,13 @@
+{
+  "name": "personal-profile",
+  "private": true,
+  "scripts": {
+    "build:html": "node -e \"const fs=require('fs'),pug=require('pug');fs.writeFileSync('public/index.html', pug.renderFile('src/index.pug'));\"",
+    "build:css": "sass src/scss/app.scss:public/css/app.css --style=compressed --no-source-map",
+    "build": "npm run build:html && npm run build:css"
+  },
+  "devDependencies": {
+    "pug": "^3.0.4",
+    "sass": "^1.102.0"
+  }
+}
