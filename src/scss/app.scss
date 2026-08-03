@@ -1,5 +1,5 @@
-$fontsDirectory: "../assets/fonts"; 
-$imagesDirectory: "../assets/images";
+$fontsDirectory: "../fonts";
+$imagesDirectory: "../images";
 $backgroundImage: $imagesDirectory+"/background.jpg";
 
 @font-face {
@@ -55,6 +55,7 @@ body {
         
             h1 {
                 font-size: 28px;
+                font-weight: bold;
                 line-height: 2;
             }
         
@@ -78,6 +79,7 @@ body {
                 box-shadow: none;
                 user-select: none;
                 user-zoom: none;
+                -webkit-user-drag: none;
                 cursor: not-allowed;
                 border: 8px solid rgba(194 ,194 ,194 ,0.1);
                 border-radius: 100%;
@@ -132,12 +134,6 @@ body {
                     left: -22px !important;
                     top: -44px !important;
                 }
-
-                &-link {
-                    position: absolute !important;
-                    right: -25px !important;
-                    bottom: -33px !important;
-                }
             }
         
             .copyright {
@@ -148,6 +144,10 @@ body {
                 color: #cccccc;
                 line-height: 2;
                 direction: ltr !important;
+
+                a {
+                    margin: 0 2px;
+                }
             }
         }
     }
@@ -175,7 +175,6 @@ a {
     text-decoration: none;
     box-shadow: -11px -8px 29px -12px rgba(255, 255, 255, 0.05) inset, rgba(0, 0, 0, 0.9) 0px 18px 36px -18px inset;
     background-color: rgba(32, 32, 32, 0.30);
-    margin: 40px 15px 10px 15px;
     padding: 5px 6px 2px 6px;
     backdrop-filter: blur(15px);
     color: #e5e5e5;

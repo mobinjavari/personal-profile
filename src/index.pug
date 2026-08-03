@@ -1,0 +1,16 @@
+extends layout
+
+block vars
+  - var pageTitle = "Mobin Javari"
+  - var description = "Full-stack developer. Personal profile and social links for Mobin Javari — GitHub, Telegram."
+  - var pageUrl = siteUrl
+  - var robots = "index, follow"
+
+block content
+  img.logo(src="./images/mobinjavari.jpg", alt="Mobin Javari Logo", draggable="false")
+  h1(title="mobinjavari") Mobin Javari
+  p Full-stack developer — building web applications end-to-end, from frontend to backend and everything in between.
+  br
+  button.button.cursor-click(onclick="openLink('github.com/mobinjavari')", title="github") Github #[span.taarget-blanck ⇱]
+  button.button.cursor-click(onclick="openLink('t.me/mobinjavari')", title="telegram") Telegram #[span.taarget-blanck ⇱]
+  p.copyright © #[span#copyright-year] by #[a(href="https://github.com/mobinjavari/") Mobin Javari] All Rights Reserved.

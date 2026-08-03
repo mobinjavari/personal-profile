@@ -1,0 +1,35 @@
+- var siteUrl = "https://mobinjavari.github.io/personal-profile/"
+block vars
+
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title= pageTitle
+
+    meta(name="description", content=description)
+    meta(name="author", content="mobinjavari")
+    meta(name="robots", content=robots)
+    link(rel="canonical", href=pageUrl)
+
+    meta(property="og:type", content="website")
+    meta(property="og:title", content=pageTitle)
+    meta(property="og:description", content=description)
+    meta(property="og:url", content=pageUrl)
+    meta(property="og:image", content=siteUrl + "images/mobinjavari.jpg")
+
+    meta(name="twitter:card", content="summary")
+    meta(name="twitter:title", content=pageTitle)
+    meta(name="twitter:description", content=description)
+    meta(name="twitter:image", content=siteUrl + "images/mobinjavari.jpg")
+
+    meta(name="theme-color", content="#101010")
+    link(rel="shortcut icon", href="./images/mobinjavari.jpg", type="image/jpeg")
+    link(rel="stylesheet", href="./css/app.css")
+  body.app
+    section.blur-box
+      .relative-box
+        block content
+  script(src="./js/script.js")
